@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Nav-bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" class="logo-img"> <img src="flip images\logo .png"></a>
+
+            <a class="a-text" href="#">Explore
+                <span class="span-text"> Plus </span>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"></a>
+        </div>
+        <div class="search-bar">
+            <input class="search-text" type="text" placeholder="Search for products, brands and more">
+
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+        </div>
+
+        <!-- Login Button -->
+
+        <div class="btn" id="form"> <button>Login
+                <div class="hover_login">
+
+                    <ul class="login-list">
+
+                        <li class="login_options">
+
+                            <span class="text"> New Customer?</span>
+                            <a href="#" class="signup">SignUp</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <a href="#">My Profile</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            <a href="#">Flipkart Plus Zone</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <a href="#">Orders</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-heart"></i>
+                            <a href="#">Wishlist</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-gift"></i>
+                            <a href="#">Rewards</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-gifts"></i>
+                            <a href="#">Gift Cards</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </button>
+
+
+
+        </div>
+
+
+        <!-- Right bar -->
+        <div class="list-bar">
+            <div class="list seller">
+                <a href="#">Become a Seller</a>
+            </div>
+            <div class="list  moreclick">
+                <a href="#">More <i class="fa-solid fa-angle-down  Angle"></i></a>
+
+                <div class="more-box">
+                    <ul class="more-list">
+                        <li class="options">
+                            <i class="fa-solid fa-bell"></i>
+                            <a href="#"> <span>Notification Preferences</span> </a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-rectangle-ad"></i>
+                            <a href="#">Advertise</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-question"></i>
+                            <a href="#">24x7 Customer Care</a>
+                        </li>
+                        <li class="options">
+                            <i class="fa-solid fa-download"></i>
+                            <a href="#">Donwload App</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="list">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Form -->
+
+    <div class="login-form" id="getform">
+
+        <div class="main-form">
+
+            <div class="form-rcolor">
+                <section>
+                    <h2>Login</h2>
+                    <p>Get access to your Orders, Wishlist and Recommendations</p>
+                    <img src="kart images/login fk.png " alt="">
+
+                </section>
+            </div>
+
+            <form action="" class="main_form">
+
+                <button class="close" id="close-btn">&times;</button>
+
+                <div class="form-contain space">
+                    <input type="text" required>
+                    <label class="placeholder">Enter Email/Mobile number</label>
+                </div>
+                <div class="form-contain">
+                    <input type="password" required>
+                    <label class="placeholder">Enter Password</label>
+                </div>
+                <div class="forget">
+                    <a href="#">Forgot?</a>
+                </div>
+
+                <div class="form-contain-text">
+                    <p>By continuing, you agree to Flipkart's <span><a href="#">Terms of Use</a></span> and <span><a
+                                href="#">Privacy Policy</a></span>.</p>
+                </div>
+                <div class="form-contain-btn">
+                    <input type="submit" value="Login">
+                </div>
+
+                <div class="line"> OR</div>
+
+                <div class="form-contain-btnR">
+                    <input type="submit" value="Request OTP">
+                </div>
+
+                <footer> <a href="#">New to FlipKart? Create an Account</a></footer>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- For Login click -->
+    <!-- <script src= "flipkart.js"></script>  -->
+
+
+    <!-- Top items nav bar -->
+
+
+    <div class="top_product">
+        <div class="top_inside">
+            <div class="top_itemBar">
+
+                <a href="#"> <img src="kart images\gift.webp" alt="">
+                    <p>Top Offers</p>
+                </a></a>
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\grocery.webp" alt="">
+                    <p>Grocery</p>
+                </a>
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\mobile.webp" alt="">
+                    <p>Mobile</p>
+                </a>
+            </div>
+
+            <div class="top_itemBar fashion">
+                <a href="#"><img src="kart images\fashion.webp" alt="">
+                    <p>Fashion <i class="fa-solid fa-angle-down  Angle-1"></i></p>
+                </a>
+                <!-- Top product  hover effect -->
+                <div class="fashion_hover">
+                    <!-- fashion list -->
+                    <ul class="fashion-list">
+                        <li class="fashion-options  fashion-opt-1 ">
+                            <div> <a href="#">Men's Top/Bottom Wear
+                                </a>
+                            </div>
+                            <i class="fa-solid fa-angle-right  Angle-r"></i>
+                            <ul class="fashion-select">
+                                <li class="Top-FS">MORE IN MEN'S WEAR</li>
+                                <li class="FS-list"><a href="#">All</a></li>
+                                <li class="FS-list"><a href="#">Men's T-Shirt</a></li>
+                                <li class="FS-list"><a href="#">Men's Casual shirts</a></li>
+                                <li class="FS-list"><a href="#">Men's Suit</a></li>
+                                <li class="FS-list"><a href="#">Men's Ethnic Sets</a></li>
+                                <li class="FS-list"><a href="#">Men's Fabrics</a></li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="fashion-options  fashion-opt-2">
+                            <div><a href="#">Women Ethnic/Western <i class="fa-solid fa-angle-right  Angle-r"></i></a>
+                            </div>
+                            <ul class="fashion-select-2">
+                                <li class="FS-list"><a href="#">All</a></li>
+                                <li class="FS-list"><a href="#">Men's T-Shirt</a></li>
+                                <li class="FS-list"><a href="#">Men's Casual shirts</a></li>
+                                <li class="FS-list"><a href="#">Men's Suit</a></li>
+                                <li class="FS-list"><a href="#">Men's Ethnic Sets</a></li>
+                                <li class="FS-list"><a href="#">Men's Fabrics</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="fashion-options"><a href="#">Men's / Women Footwear <i
+                                    class="fa-solid fa-angle-right  Angle-r"></i></a></li>
+                        <li class="fashion-options"><a href="#">Kids <i
+                                    class="fa-solid fa-angle-right  Angle-r"></i></a></li>
+                        <li class="fashion-options"><a href="#">Watches and accessories <i
+                                    class="fa-solid fa-angle-right  Angle-r"></i></a></li>
+                        <li class="fashion-options"><a href="#">Bags, Suitcases & Luggage <i
+                                    class="fa-solid fa-angle-right  Angle-r"></i></a></li>
+                        <li class="fashion-options"><a href="#">Essentials <i
+                                    class="fa-solid fa-angle-right  Angle-r"></i></a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\electronic.webp" alt="">
+                    <p>Electronics <i class="fa-solid fa-angle-down  Angle-2"></i></p>
+                </a>
+                <!-- Top product hover effect -->
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\home.webp" alt="">
+                    <p>Home <i class="fa-solid fa-angle-down  Angle-3"></i></p>
+                </a>
+                <!-- Top product hover effect -->
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\applieance.webp" alt="">
+                    <p>Appliances</p>
+                </a>
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\travel.webp" alt="">
+                    <p>Travel</p>
+                </a>
+            </div>
+            <div class="top_itemBar">
+                <a href="#"> <img src="kart images\toy.webp" alt="">
+                    <p>Beauty,Toys & More <i class="fa-solid fa-angle-down  Angle-4"></i> </p>
+                </a>
+                <!-- Top product hover effect -->
+            </div>
+            <div class="top_itemBar">
+                <a href="#"><img src="kart images\bike.webp" alt="">
+                    <p>2-Wheelers</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="slide">
+        <div class="slide-btn btn-left" onclick="left()">
+            <button><i id="left" class="fa-solid fa-angle-left  s-Angle"></i></button>
+
+        </div>
+        <div class="slide-img">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/bb37d39e16a778b0.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/35b4ee368808a95e.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/fd1a0c94818d3359.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/0456ee09905ec903.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/2b15b3e8605c6b68.jpg?q=50" alt="">
+        </div>
+        <div class="slide-btn btn-right" onclick="right()">
+            <button><i id="right" class="fa-solid fa-angle-right  s-Angle2"></i></button>
+        </div>
+
+    </div>
+    <!-- Electrics item Nav -->
+
+    <div class="electric-slider">
+
+        <div class="bc-img">
+            <div class="bc">
+                <section>
+                    <h1>Best of Electronics</h1>
+                    <button>VEIW ALL</button>
+                </section>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90" alt="">
+
+            </div>
+
+            <div class="inside-Electric">
+
+                <div class="electric-btn ele-left" onclick="Electricleft()">
+                    <button><i id="left" class="fa-solid fa-angle-left  s-Angle"></i></button>
+                </div>
+
+                <div class="electric-img">
+
+                    <div><img src="Electric img/printer.webp" alt="" class="EI-1 Image-hover">
+                        <p>Printers</p>
+                        <p style="color: Green;">From ₹3999</p>
+                        <p style="color: rgb(142, 139, 139); ">HP</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/camera.webp" alt="" class="EI-2 Image-hover">
+                        <p>Top Mirrorless Cameras</p>
+                        <p style="color: Green;">Shop Now!</p>
+                        <p style="color: rgb(142, 139, 139);">Canon,Sony,Fujifilm...</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/S-monitor.webp" alt="" class="EI-3 Image-hover">
+                        <p>Monitors</p>
+                        <p style="color: Green;">From ₹9999</p>
+                        <p style="color: rgb(142, 139, 139);">SAMSUNG</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/projector.webp" alt="" class="EI-4 Image-hover">
+                        <p>Projectors</p>
+                        <p style="color: Green;">From ₹3999</p>
+                        <p style="color: rgb(142, 139, 139);">HP</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/camera handle.webp" alt="" class="EI-5 Image-hover">
+                        <p>Top Deals of Camera Accessori..</p>
+                        <p style="color: Green;">Shop Now!</p>
+                        <p style="color: rgb(142, 139, 139);">Tripods,Gimbals,Bags..</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/hair dyer.webp" alt="" class="EI-6 Image-hover">
+                        <p>Best of Hair Dryers</p>
+                        <p style="color: Green;">From ₹399</p>
+                        <p style="color: rgb(142, 139, 139);">Philips,Nova & more</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/projector2.webp" alt="" class="EI-7 Image-hover">
+                        <p>Projectors</p>
+                        <p style="color: Green;">From ₹3999</p>
+                        <p style="color: rgb(142, 139, 139);">Zebronics</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/camera.webp" alt="" class="EI-2 Image-hover">
+                        <p>Top Mirrorless Cameras</p>
+                        <p style="color: Green;">Shop Now!</p>
+                        <p style="color: rgb(142, 139, 139);">Canon,Sony,Fujifilm...</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/monitor.webp" alt="" class="EI-3 Image-hover">
+                        <p>Monitors</p>
+                        <p style="color: Green;">From ₹8799</p>
+                        <p style="color: rgb(142, 139, 139);">DELL</p>
+
+                    </div>
+                    <div>
+                        <img src="Electric img/S-monitor.webp" alt="" class="EI-3 Image-hover">
+                        <p>Monitors</p>
+                        <p style="color: Green;">From ₹9999</p>
+                        <p style="color: rgb(142, 139, 139);">SAMSUNG</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/projector2.webp" alt="" class="EI-7 Image-hover">
+                        <p>Projectors</p>
+                        <p style="color: Green;">From ₹3999</p>
+                        <p style="color: rgb(142, 139, 139);">Zebronics</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/camera acces.webp" alt="" class="EI-5 Image-hover">
+                        <p>Top Deals of Camera Accessori..</p>
+                        <p style="color: Green;">Shop Now!</p>
+                        <p style="color: rgb(142, 139, 139);">Tripods,Gimbals,Bags..</p>
+                    </div>
+                    <div>
+                        <img src="Electric img/hair dyer.webp" alt="" class="EI-6 Image-hover">
+                        <p>Best of Hair Dryers</p>
+                        <p style="color: Green;">From ₹399</p>
+                        <p style="color: rgb(142, 139, 139);">Philips,Nova & more</p>
+                    </div>
+
+                    <div>
+                        <img src="Electric img/monitor.webp" alt="" class="EI-3 Image-hover">
+                        <p>Monitors</p>
+                        <p style="color: Green;">From ₹8799</p>
+                        <p style="color: rgb(142, 139, 139);">DELL</p>
+                    </div>
+
+
+                </div>
+
+                <div class="electric-btn ele-right" onclick="Electricright()">
+                    <button><i id="right" class="fa-solid fa-angle-right  s-Angle2"></i></button>
+                </div>
+
+            </div>
+            <div class="emi-img">
+                <img src="Electric img/emi.webp" class="EMI-img">
+            </div>
+        </div>
+
+
+
+        <!-- adding -->
+        <div class="toy-slider">
+
+            <div class="bc-img">
+                <div class="bc">
+                    <section>
+                        <h1>Top Deals!</h1>
+                        <button>VEIW ALL</button>
+                    </section>
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90" alt="">
+
+                </div>
+
+                <div class="inside-Toy">
+
+                    <div class="electric-btn ele-left Prebtn btn-hidden" onclick="Toyleft()">
+                        <button><i id="left" class="fa-solid fa-angle-left  s-Angle"></i></button>
+                    </div>
+
+                    <div class="Toy-img">
+
+                        <div><img src="Electric img/printer.webp" alt="" class="EI-1 Image-hover">
+                            <p>Printers</p>
+                            <p style="color: Green;">From ₹3999</p>
+                            <p style="color: rgb(142, 139, 139); ">HP</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/camera.webp" alt="" class="EI-2 Image-hover">
+                            <p>Top Mirrorless Cameras</p>
+                            <p style="color: Green;">Shop Now!</p>
+                            <p style="color: rgb(142, 139, 139);">Canon,Sony,Fujifilm...</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/S-monitor.webp" alt="" class="EI-3 Image-hover">
+                            <p>Monitors</p>
+                            <p style="color: Green;">From ₹9999</p>
+                            <p style="color: rgb(142, 139, 139);">SAMSUNG</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/projector.webp" alt="" class="EI-4 Image-hover">
+                            <p>Projectors</p>
+                            <p style="color: Green;">From ₹3999</p>
+                            <p style="color: rgb(142, 139, 139);">HP</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/camera handle.webp" alt="" class="EI-5 Image-hover">
+                            <p>Top Deals of Camera Accessori..</p>
+                            <p style="color: Green;">Shop Now!</p>
+                            <p style="color: rgb(142, 139, 139);">Tripods,Gimbals,Bags..</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/hair dyer.webp" alt="" class="EI-6 Image-hover">
+                            <p>Best of Hair Dryers</p>
+                            <p style="color: Green;">From ₹399</p>
+                            <p style="color: rgb(142, 139, 139);">Philips,Nova & more</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/projector2.webp" alt="" class="EI-7 Image-hover">
+                            <p>Projectors</p>
+                            <p style="color: Green;">From ₹3999</p>
+                            <p style="color: rgb(142, 139, 139);">Zebronics</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/camera.webp" alt="" class="EI-2 Image-hover">
+                            <p>Top Mirrorless Cameras</p>
+                            <p style="color: Green;">Shop Now!</p>
+                            <p style="color: rgb(142, 139, 139);">Canon,Sony,Fujifilm...</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/monitor.webp" alt="" class="EI-3 Image-hover">
+                            <p>Monitors</p>
+                            <p style="color: Green;">From ₹8799</p>
+                            <p style="color: rgb(142, 139, 139);">DELL</p>
+
+                        </div>
+                        <div>
+                            <img src="Electric img/S-monitor.webp" alt="" class="EI-3 Image-hover">
+                            <p>Monitors</p>
+                            <p style="color: Green;">From ₹9999</p>
+                            <p style="color: rgb(142, 139, 139);">SAMSUNG</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/projector2.webp" alt="" class="EI-7 Image-hover">
+                            <p>Projectors</p>
+                            <p style="color: Green;">From ₹3999</p>
+                            <p style="color: rgb(142, 139, 139);">Zebronics</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/camera acces.webp" alt="" class="EI-5 Image-hover">
+                            <p>Top Deals of Camera Accessori..</p>
+                            <p style="color: Green;">Shop Now!</p>
+                            <p style="color: rgb(142, 139, 139);">Tripods,Gimbals,Bags..</p>
+                        </div>
+                        <div>
+                            <img src="Electric img/hair dyer.webp" alt="" class="EI-6 Image-hover">
+                            <p>Best of Hair Dryers</p>
+                            <p style="color: Green;">From ₹399</p>
+                            <p style="color: rgb(142, 139, 139);">Philips,Nova & more</p>
+                        </div>
+
+                        <div>
+                            <img src="Electric img/monitor.webp" alt="" class="EI-3 Image-hover">
+                            <p>Monitors</p>
+                            <p style="color: Green;">From ₹8799</p>
+                            <p style="color: rgb(142, 139, 139);">DELL</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="electric-btn ele-right NextBtn" onclick="Toyright()">
+                        <button><i id="right" class="fa-solid fa-angle-right  s-Angle2"></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <footer class="footer-main">
+                    © Copyright 2007-2023
+                </footer>
+            </div>
+            <script src="flipkart.js"></script>
+</body>
+
+</html>
